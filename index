@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuestionario HTML Básico</title>
+</head>
+<body style="font-family: Arial; background-color: #f5f5f5; text-align: center;">
+
+  <h1 style="color: blue;">Cuestionario de HTML Básico</h1>
+  <form>
+    <!-- 1 -->
+    <p>1. ¿Qué etiqueta se usa para crear un enlace?</p>
+    <input type="text" name="p1" placeholder="Respuesta">
+
+    <!-- 2 -->
+    <p>2. ¿Qué etiqueta define una tabla en HTML?</p>
+    <input type="text" name="p2">
+
+    <!-- 3 -->
+    <p>3. ¿Qué atributo en la etiqueta &lt;img&gt; define la ruta de la imagen?</p>
+    <input type="text" name="p3">
+
+    <!-- 4 -->
+    <p>4. ¿Qué etiqueta se usa para crear un formulario?</p>
+    <input type="text" name="p4">
+
+    <!-- 5 -->
+    <p>5. ¿Cuál es la etiqueta correcta para hacer un salto de línea?</p>
+    <input type="text" name="p5">
+
+    <!-- 6 -->
+    <p>6. ¿Qué etiqueta se usa para resaltar un texto en negritas?</p>
+    <input type="text" name="p6">
+
+    <!-- 7 -->
+    <p>7. ¿Cómo se abre una celda en una tabla?</p>
+    <input type="text" name="p7">
+
+    <!-- 8 -->
+    <p>8. ¿Qué etiqueta se usa para un encabezado más grande?</p>
+    <input type="text" name="p8">
+
+    <!-- 9 -->
+    <p>9. ¿Cuál es la etiqueta para insertar una imagen?</p>
+    <input type="text" name="p9">
+
+    <!-- 10 -->
+    <p>10. ¿Qué atributo del &lt;a&gt; abre un enlace en otra pestaña?</p>
+    <input type="text" name="p10">
+
+    <!-- 11 -->
+    <p>11. ¿Cómo se define una fila en una tabla?</p>
+    <input type="text" name="p11">
+
+    <!-- 12 -->
+    <p>12. ¿Qué etiqueta se usa para párrafos?</p>
+    <input type="text" name="p12">
+
+    <!-- 13 -->
+    <p>13. ¿Qué atributo cambia el tamaño de la fuente en HTML (inline)?</p>
+    <input type="text" name="p13">
+
+    <!-- 14 -->
+    <p>14. ¿Qué etiqueta se usa para listas ordenadas?</p>
+    <input type="text" name="p14">
+
+    <!-- 15 -->
+    <p>15. ¿Qué etiqueta se usa para listas sin orden?</p>
+    <input type="text" name="p15">
+
+    <!-- 16 -->
+    <p>16. ¿Cuál etiqueta se usa para agrupar opciones en un formulario?</p>
+    <input type="text" name="p16">
+
+    <!-- 17 -->
+    <p>17. ¿Qué atributo de &lt;input&gt; crea un botón para enviar?</p>
+    <input type="text" name="p17">
+
+    <!-- 18 -->
+    <p>18. ¿Cómo se inserta un comentario en HTML?</p>
+    <input type="text" name="p18">
+
+    <!-- 19 -->
+    <p>19. ¿Qué atributo de imagen cambia su tamaño (ancho)?</p>
+    <input type="text" name="p19">
+
+    <!-- 20 -->
+    <p>20. ¿Cuál es la etiqueta para agrupar el contenido principal de la página?</p>
+    <input type="text" name="p20">
+
+    <br><br>
+
+    <!-- Btn borde-->
+    <button type="submit" style="border: 2px solid green; padding: 10px;">Enviar Respuestas</button>
+
+    <!-- Bot img -->
+    <br><br>
+    <button type="reset" style="border: 2px solid red; padding: 5px;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Red_X.svg/32px-Red_X.svg.png" alt="reset">
+      Reiniciar
+    </button>
+  </form>
+
+</body>
+</html>
